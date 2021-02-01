@@ -1,0 +1,19 @@
+{
+  "name": "multi-mini-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "move": "webpack --config build/webpack.config.js",
+    "clean": "node build/clean.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
